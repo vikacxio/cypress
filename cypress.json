@@ -1,0 +1,31 @@
+{
+	"$schema": "https://on.cypress.io/cypress.schema.json",
+	
+	"viewportWidth": 1366,
+	"viewportHeight": 1348,
+	"modifyObstructiveCode": false,
+	"defaultCommandTimeout": 10000,
+	"execTimeout": 60000,
+	"pageLoadTimeout": 60000,
+	"requestTimeout": 15000,
+	"responseTimeout": 15000,
+	"baseUrl": "http://cva-india-test.s3-website.ap-south-1.amazonaws.com/",
+
+
+	"integrationFolder": "cypress/integration/testcases",
+	"screenshotsFolder": "cypress/reports/mochareports/assets",
+	"screenshotOnRunFailure": true,
+	
+	"reporter": "cypress-multi-reporters",
+	"reporterOptions": {
+		"reporterEnabled": "mochawesome",
+		"mochawesomeReporterOptions": {
+			"reportDir": "cypress/reports/mocha",
+			"quite": true,
+			"overwrite": false,
+			"html": true,
+			"json": true
+		}
+	},
+	"video": false
+}

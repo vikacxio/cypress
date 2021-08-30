@@ -1,0 +1,23 @@
+{
+    "ddebtrtype":"Limited Liability Partnership",
+    "ddebtrtypecllp":"Limited Liability Partnership",
+    "extra":"Company registered under Company’s Act",
+    "ddebtrtypepf":"Partnership Firm",
+    "ddebtrtypespf":"Sole Proprietorship Firm",
+    "ddebtrtypeother":"Others",
+    "dpass":"33333333",
+     "dfirmname":"Osmosis Tech",
+     "dselectindustry":"other",
+     "dotherindustry":"newveg",
+     "dcompanyaddress":"Noida",
+     "dpincode":"445304",
+     "creditortype":"Operational Creditor",
+     "creditortypeufc":"Operational Creditor",
+     "creditortypeoperc":"Operational Creditor",
+     "creditortypesfc":"Secured Financial Creditor",
+    "cfirmname":"Magenta",
+     "cpincode":"445304",
+     "ccompanyaddress":"Kochin",
+     "actotp":"1111",
+     "daddress":"Noida"
+  }
